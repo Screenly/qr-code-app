@@ -2,7 +2,7 @@
 syntax: manifest_v1
 id: 01KBHC8GG9WN8HNYC2VSGQFZ20
 description: A QR code generator app with customizable header
-icon: https://playground.srly.io/edge-apps/qr-code/static/img/icon.svg
+icon: https://playground.srly.io/edge-apps/icons/qr-code.svg
 author: Screenly, Inc.
 categories:
   - Utilities
