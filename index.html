@@ -1,20 +1,37 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="text-[14px]">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QR Code - Screenly Edge App</title>
     <script src="screenly.js?version=1"></script>
   </head>
-  <body>
-    <div class="container max-w-full">
-      <div class="qr-section">
-        <div class="text-content">
-          <h1 id="headline"></h1>
+  <body
+    class="font-[-apple-system,BlinkMacSystemFont,Segoe_UI,Roboto,Helvetica_Neue,Arial,sans-serif] bg-[var(--theme-color-background,#c9cdd0)]"
+  >
+    <div class="flex justify-center items-center h-full w-full max-w-full p-8">
+      <div
+        class="flex flex-row justify-between items-center gap-20 w-full max-w-[90rem] h-full max-h-[50rem] p-20 rounded-[3.5rem] bg-[var(--theme-color-primary,#972eff)] text-[var(--theme-color-tertiary,#ffffff)] shadow-[0_2.5rem_5rem_rgba(0,0,0,0.25),0_1rem_2rem_rgba(0,0,0,0.15)] relative overflow-hidden before:content-[''] before:absolute before:top-[-50%] before:right-[-10%] before:w-[40rem] before:h-[40rem] before:bg-[radial-gradient(circle,rgba(255,255,255,0.08)_0%,transparent_70%)] before:rounded-full before:pointer-events-none landscape:max-[1280px]:p-10 landscape:max-[1280px]:gap-10 landscape:max-[800px]:p-8 landscape:max-[800px]:gap-8 portrait:flex-col portrait:gap-12 portrait:max-w-[50rem] max-[720px]:portrait:p-8 max-[720px]:portrait:gap-8 max-[480px]:portrait:p-6 max-[480px]:portrait:gap-6"
+      >
+        <div
+          class="flex-1 flex flex-col justify-center max-w-[45rem] relative z-[1] portrait:text-center portrait:max-w-full"
+        >
+          <h1
+            id="headline"
+            class="text-[6rem] font-bold leading-[1.15] m-0 tracking-[-0.02em] [text-shadow:0_0.25rem_1rem_rgba(0,0,0,0.1)] landscape:max-[1280px]:text-[4rem] landscape:max-[800px]:text-[2.75rem] portrait:text-[4.5rem] max-[720px]:portrait:text-[3.5rem] max-[480px]:portrait:text-[2.5rem]"
+          ></h1>
         </div>
-        <div class="qr-container">
-          <div id="qr-code"></div>
-          <p id="cta"></p>
+        <div
+          class="flex flex-col items-center gap-8 shrink-0 relative z-[1]"
+        >
+          <div
+            id="qr-code"
+            class="flex justify-center items-center w-[32rem] h-[32rem] p-10 bg-white rounded-[2.5rem] shadow-[0_1.5rem_4rem_rgba(0,0,0,0.25),0_0.5rem_1.5rem_rgba(0,0,0,0.15)] [&>svg]:w-full [&>svg]:h-full [&>svg]:block landscape:max-[1280px]:w-[22rem] landscape:max-[1280px]:h-[22rem] landscape:max-[800px]:w-[18rem] landscape:max-[800px]:h-[18rem] landscape:max-[800px]:p-6 portrait:w-[28rem] portrait:h-[28rem] max-[720px]:portrait:w-[22rem] max-[720px]:portrait:h-[22rem] max-[480px]:portrait:w-[18rem] max-[480px]:portrait:h-[18rem] max-[480px]:portrait:p-4"
+          ></div>
+          <p
+            id="cta"
+            class="text-[1.75rem] leading-[1.4] m-0 opacity-95 font-medium tracking-[-0.01em] text-center landscape:max-[1280px]:text-[1.4rem] landscape:max-[800px]:text-[1.15rem] portrait:text-[1.6rem] max-[720px]:portrait:text-[1.4rem] max-[480px]:portrait:text-[1.15rem]"
+          ></p>
         </div>
       </div>
     </div>
