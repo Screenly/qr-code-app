@@ -1,4 +1,8 @@
+[![Version](https://img.shields.io/github/v/release/Screenly/qr-code-app)](https://github.com/Screenly/qr-code-app/releases/latest)
+
 # Screenly QR Code Generator App
+
+![QR Code Generator App Preview](/screenshots/1920x1080.webp)
 
 ## Getting Started
 
